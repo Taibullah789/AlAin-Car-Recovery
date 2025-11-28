@@ -1,52 +1,118 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { useState } from 'react';
+import services from '../data/services';
 
 export default function Header(){
   const [servicesOpen, setServicesOpen] = useState(false);
-  
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+
+  const linkClass = ({ isActive }) => 
+    `px-2 py-1 text-sm md:text-base font-medium transition ${isActive ? 'text-yellow-400 border-b-2 border-yellow-400' : 'text-white hover:text-yellow-300'}`;
+
   return (
-    <header className='bg-blue-600 text-white shadow-lg sticky top-0 z-50'>
-      <div className='container mx-auto px-4 py-4'>
-        <div className='flex justify-between items-center'>
-          <Link to='/' className='text-2xl md:text-3xl font-bold hover:text-blue-200 transition'>
-            FastLane Towing
-          </Link>
-          <nav className='hidden md:flex items-center space-x-6'>
-            <Link to='/' className='hover:text-blue-200 transition'>Home</Link>
+    <header className='bg-[rgba(0,0,0,0.6)] backdrop-blur-sm text-white sticky top-0 z-50'>
+      <div className='container mx-auto px-4 py-3'>
+        <div className='flex items-center justify-between'>
+          {/* Left: Logo */}
+          <NavLink to='/' className='flex items-center gap-3'>
+            <div className='w-10 h-10 rounded-md bg-yellow-400 flex items-center justify-center text-black font-bold'>
+              <svg className='w-6 h-6' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M3 12h2l2-4h8l2 4h2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
+                <path d='M5 16v2a1 1 0 001 1h1a1 1 0 001-1v-2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
+                <path d='M15 16v2a1 1 0 001 1h1a1 1 0 001-1v-2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
+              </svg>
+            </div>
+            <span className='hidden sm:inline-block text-white font-bold tracking-wide'>QUICKTOWDHUBAI</span>
+          </NavLink>
+
+          {/* Center: Nav links (desktop) */}
+          <nav className='hidden lg:flex items-center gap-6'>
+            <NavLink to='/' className={linkClass}>Home</NavLink>
             <div 
               className='relative'
               onMouseEnter={() => setServicesOpen(true)}
               onMouseLeave={() => setServicesOpen(false)}
             >
-              <Link to='/services' className='hover:text-blue-200 transition flex items-center'>
+              <NavLink to='/services' className={linkClass} end={false}>
                 Services
-                <svg className='w-4 h-4 ml-1' fill='currentColor' viewBox='0 0 20 20'>
-                  <path fillRule='evenodd' d='M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z' clipRule='evenodd' />
-                </svg>
-              </Link>
+              </NavLink>
               {servicesOpen && (
                 <div className='absolute top-full left-0 mt-2 w-56 bg-white text-gray-800 rounded-md shadow-lg py-2'>
-                  <Link to='/services/towing-services' className='block px-4 py-2 hover:bg-blue-50'>Towing Services</Link>
-                  <Link to='/services/tire-change' className='block px-4 py-2 hover:bg-blue-50'>Tire Change</Link>
-                  <Link to='/services/roadside-assistant' className='block px-4 py-2 hover:bg-blue-50'>Roadside Assistant</Link>
-                  <Link to='/services/sports-recovery' className='block px-4 py-2 hover:bg-blue-50'>Sports Recovery</Link>
-                  <Link to='/services/desert-pullout' className='block px-4 py-2 hover:bg-blue-50'>Desert Pullout</Link>
-                  <Link to='/services/4x4-recovery' className='block px-4 py-2 hover:bg-blue-50'>4x4 Recovery</Link>
+                  {services.map((service) => (
+                    <NavLink key={service.id} to={`/services/${service.slug}`} className='block px-4 py-2 hover:bg-gray-100'>
+                      {service.name}
+                    </NavLink>
+                  ))}
                 </div>
               )}
             </div>
-            <Link to='/about' className='hover:text-blue-200 transition'>About</Link>
-            <Link to='/gallery' className='hover:text-blue-200 transition'>Gallery</Link>
-            <Link to='/blog' className='hover:text-blue-200 transition'>Blog</Link>
-            <Link to='/contact' className='hover:text-blue-200 transition'>Contact Us</Link>
+            <NavLink to='/about' className={linkClass}>About</NavLink>
+            <NavLink to='/gallery' className={linkClass}>Gallery</NavLink>
+            <NavLink to='/blog' className={linkClass}>Blog</NavLink>
+            <NavLink to='/contact' className={linkClass}>Contact Us</NavLink>
           </nav>
-          <div className='md:hidden'>
-            <button className='text-white'>
-              <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
-                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16' />
-              </svg>
-            </button>
+
+          {/* Right: CTA button */}
+          <div className='flex items-center gap-4'>
+            <a href='tel:+971504054022' className='hidden md:inline-block bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold hover:bg-yellow-300 transition'>
+              CALL US NOW
+            </a>
+
+            {/* Mobile menu button */}
+            <div className='lg:hidden'>
+              <button
+                aria-label={mobileOpen ? 'Close menu' : 'Open menu'}
+                aria-expanded={mobileOpen}
+                onClick={() => setMobileOpen((s) => !s)}
+                className='text-white focus:outline-none'
+              >
+                {mobileOpen ? (
+                  <svg className='w-6 h-6' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M6 18L18 6M6 6l12 12' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'/>
+                  </svg>
+                ) : (
+                  <svg className='w-6 h-6' fill='none' stroke='currentColor' viewBox='0 0 24 24'>
+                    <path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M4 6h16M4 12h16M4 18h16' />
+                  </svg>
+                )}
+              </button>
+            </div>
           </div>
+        </div>
+      </div>
+      {/* Mobile menu panel with slide animation */}
+      <div className={`lg:hidden bg-[rgba(0,0,0,0.85)] text-white overflow-hidden transition-all duration-300 ${mobileOpen ? 'max-h-[800px] opacity-100' : 'max-h-0 opacity-0'}`}>
+        <div className='container mx-auto px-4 py-4'>
+          <nav className='flex flex-col gap-3'>
+            <NavLink to='/' onClick={() => setMobileOpen(false)} className='block px-3 py-2 text-lg font-medium'>Home</NavLink>
+            <div>
+              <button
+                onClick={() => setMobileServicesOpen((s) => !s)}
+                className='w-full flex items-center justify-between px-3 py-2 text-lg font-medium'
+                aria-expanded={mobileServicesOpen}
+              >
+                <span>Services</span>
+                <svg className={`w-5 h-5 transform transition-transform ${mobileServicesOpen ? 'rotate-180' : ''}`} viewBox='0 0 20 20' fill='currentColor'>
+                  <path fillRule='evenodd' d='M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 011.08 1.04l-4.25 4.25a.75.75 0 01-1.06 0L5.21 8.27a.75.75 0 01.02-1.06z' clipRule='evenodd' />
+                </svg>
+              </button>
+
+              {/* Animated submenu */}
+              <div className={`pl-4 mt-1 flex flex-col gap-1 overflow-hidden transition-all duration-300 ${mobileServicesOpen ? 'max-h-[300px] opacity-100' : 'max-h-0 opacity-0'}`}>
+                {services.map((service) => (
+                  <NavLink key={service.id} to={`/services/${service.slug}`} onClick={() => setMobileOpen(false)} className='px-3 py-2'>
+                    {service.name}
+                  </NavLink>
+                ))}
+              </div>
+            </div>
+            <NavLink to='/about' onClick={() => setMobileOpen(false)} className='block px-3 py-2 text-lg font-medium'>About</NavLink>
+            <NavLink to='/gallery' onClick={() => setMobileOpen(false)} className='block px-3 py-2 text-lg font-medium'>Gallery</NavLink>
+            <NavLink to='/blog' onClick={() => setMobileOpen(false)} className='block px-3 py-2 text-lg font-medium'>Blog</NavLink>
+            <NavLink to='/contact' onClick={() => setMobileOpen(false)} className='block px-3 py-2 text-lg font-medium'>Contact Us</NavLink>
+            <a href='tel:+971504054022' className='mt-2 inline-block bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold text-center'>CALL US NOW</a>
+          </nav>
         </div>
       </div>
     </header>

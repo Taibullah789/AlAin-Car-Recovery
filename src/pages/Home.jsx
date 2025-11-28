@@ -2,9 +2,9 @@ import HeroBanner from '../components/HeroBanner';
 import StatsSection from '../components/StatsSection';
 import ServiceCard from '../components/ServiceCard';
 import AboutSection from '../components/AboutSection';
-import Testimonial from '../components/Testimonial';
-import QuoteForm from '../components/QuoteForm';
+import TestimonialWithForm from '../components/TestimonialWithForm';
 import GallerySection from '../components/Gallery';
+import ReadySection from '../components/ReadySection';
 import services from '../data/services';
 import { Helmet } from 'react-helmet-async';
 
@@ -43,30 +43,14 @@ export default function Home(){
         </div>
       </section>
       
-      {/* Testimonial Section */}
-      <Testimonial />
-      
-      {/* Quote Form Section */}
-      <QuoteForm />
+      {/* Testimonial & Quote Form Section */}
+      <TestimonialWithForm />
       
       {/* Gallery Section */}
       <GallerySection />
       
-      {/* Call to Action Section */}
-      <section className='py-20 bg-blue-600 text-white text-center'>
-        <div className='container mx-auto px-4'>
-          <h2 className='text-4xl md:text-5xl font-bold mb-4'>WE ARE READY 24/7 HOURS TO HELP YOU.</h2>
-          <p className='text-xl mb-8 max-w-3xl mx-auto'>
-            Whether it's a flat tire at Dubai Mall or a breakdown near Dubai Marina, our expert team is on standby around the clock.
-          </p>
-          <a 
-            href='tel:+971504054022' 
-            className='inline-block bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-lg'
-          >
-            Contact us
-          </a>
-        </div>
-      </section>
+      {/* Ready 24/7 Section */}
+      <ReadySection />
     </div>
   );
 }
