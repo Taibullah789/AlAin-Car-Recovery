@@ -44,7 +44,7 @@ export default function FloatingContactBanner(){
         {/* Bottom Line - Phone Number with Underline */}
         <div className='text-center'>
           <div className='text-lg md:text-xl font-bold border-b-2 border-white pb-1 inline-block'>
-            (+971) 50 405 4022
+            (056) 9284977
           </div>
         </div>
       </a>
