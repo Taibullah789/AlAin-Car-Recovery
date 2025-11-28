@@ -26,12 +26,12 @@ export default function HeroBanner(){
           <div className='flex flex-col md:flex-row items-center justify-center gap-4 mb-12'>
             <a 
               href='tel:+971504054022' 
-              className='bg-white text-blue-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-lg'
+              className='bg-yellow-400 text-black-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-blue-50 transition shadow-lg'
             >
               Call Us Now
             </a>
             <div className='text-2xl font-bold'>
-              (+971) 50 405 4022
+              
             </div>
           </div>
         </div>

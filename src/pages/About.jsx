@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import AboutSection from '../components/AboutSection';
 import PageHero from '../components/PageHero';
 
+
 export default function About(){
   return (
     <div>

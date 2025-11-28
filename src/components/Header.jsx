@@ -17,11 +17,60 @@ export default function Header(){
           {/* Left: Logo */}
           <NavLink to='/' className='flex items-center gap-3'>
             <div className='w-10 h-10 rounded-md bg-yellow-400 flex items-center justify-center text-black font-bold'>
-              <svg className='w-6 h-6' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M3 12h2l2-4h8l2 4h2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
-                <path d='M5 16v2a1 1 0 001 1h1a1 1 0 001-1v-2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
-                <path d='M15 16v2a1 1 0 001 1h1a1 1 0 001-1v-2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
-              </svg>
+              <svg
+  className="w-8 h-8"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  {/* Tow Boom */}
+  <path
+    d="M32 20L44 6h6"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  {/* Hook */}
+  <path
+    d="M50 6v4c0 2-1 3-2 4"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  {/* Truck Cabin */}
+  <path
+    d="M10 30v-8c0-2 1-3 3-3h10l5 8h14c2 0 4 2 4 4v8"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  {/* Truck Bed */}
+  <path
+    d="M10 30h40v10H10z"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinejoin="round"
+  />
+
+  {/* Wheels */}
+  <circle cx="18" cy="44" r="6" stroke="currentColor" strokeWidth="2.5" />
+  <circle cx="42" cy="44" r="6" stroke="currentColor" strokeWidth="2.5" />
+
+  {/* Wheel Axle Line */}
+  <path
+    d="M24 44h12"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+  />
+</svg>
+
             </div>
             <span className='hidden sm:inline-block text-white font-bold tracking-wide'>SWIFTTOWDUBAI</span>
           </NavLink>

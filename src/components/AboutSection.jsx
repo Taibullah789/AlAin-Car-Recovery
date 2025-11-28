@@ -60,7 +60,7 @@ export default function AboutSection() {
             </h2>
 
             <p className='text-gray-700 text-base md:text-lg mb-8 leading-relaxed'>
-              Quick Tow Dubai is your trusted partner for 24/7 emergency towing and roadside assistance across the Emirates. Our team of certified technicians uses state-of-the-art equipment to ensure your vehicle is assessed, secured, and transported safely—every time.
+              Swift Tow Dubai is your trusted partner for 24/7 emergency towing and roadside assistance across the Emirates. Our team of certified technicians uses state-of-the-art equipment to ensure your vehicle is assessed, secured, and transported safely—every time.
             </p>
 
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8'>
@@ -83,6 +83,7 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
+    
   );
 }
 

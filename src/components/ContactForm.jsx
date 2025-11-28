@@ -18,7 +18,7 @@ export default function ContactForm(){
           name='name' 
           placeholder='Full Name' 
           required 
-          className='w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition'
+          className='w-full border bg-transparent border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition'
         />
       </div>
       
@@ -28,7 +28,7 @@ export default function ContactForm(){
           name='email' 
           placeholder='Email' 
           required 
-          className='w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition'
+          className='w-full border bg-transparent border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition'
         />
       </div>
       
@@ -38,7 +38,7 @@ export default function ContactForm(){
           name='phone' 
           placeholder='Phone Number' 
           required 
-          className='w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition'
+          className='w-full border bg-transparent border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition'
         />
       </div>
       
@@ -48,7 +48,7 @@ export default function ContactForm(){
           placeholder='Message' 
           rows='5'
           required
-          className='w-full border border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition resize-none'
+          className='w-full border bg-transparent border-gray-300 p-4 rounded-lg focus:ring-2 focus:ring-yellow-400 focus:border-transparent outline-none transition resize-none'
         />
       </div>
       

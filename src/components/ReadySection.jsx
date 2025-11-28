@@ -9,7 +9,7 @@ export default function ReadySection() {
       className='relative py-20 md:py-32 bg-cover bg-center bg-no-repeat text-white'
       ref={ref}
       style={{
-        backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.5) 0%, rgba(30, 58, 138, 0.6) 100%), url("/towing-truck.jpg")',
+        backgroundImage: 'linear-gradient(135deg, rgba(0, 0, 0, 0.7) 0%, rgba(30, 58, 138, 0.7) 100%), url("/image.png")',
         backgroundSize: 'cover',
         backgroundPosition: 'center'
       }}

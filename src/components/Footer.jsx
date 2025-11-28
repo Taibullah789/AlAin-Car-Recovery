@@ -12,7 +12,60 @@ export default function Footer(){
             {/* Brand */}
             <div className='flex items-center gap-3 mb-6'>
               <div className='w-10 h-10 bg-yellow-500 rounded flex items-center justify-center text-lg font-bold'>
-                🚗
+                <svg
+  className="w-8 h-8"
+  viewBox="0 0 64 64"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  {/* Tow Boom */}
+  <path
+    d="M32 20L44 6h6"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  {/* Hook */}
+  <path
+    d="M50 6v4c0 2-1 3-2 4"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  {/* Truck Cabin */}
+  <path
+    d="M10 30v-8c0-2 1-3 3-3h10l5 8h14c2 0 4 2 4 4v8"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+
+  {/* Truck Bed */}
+  <path
+    d="M10 30h40v10H10z"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinejoin="round"
+  />
+
+  {/* Wheels */}
+  <circle cx="18" cy="44" r="6" stroke="currentColor" strokeWidth="2.5" />
+  <circle cx="42" cy="44" r="6" stroke="currentColor" strokeWidth="2.5" />
+
+  {/* Wheel Axle Line */}
+  <path
+    d="M24 44h12"
+    stroke="currentColor"
+    strokeWidth="2.5"
+    strokeLinecap="round"
+  />
+</svg>
+
               </div>
               <h3 className='text-xl md:text-2xl font-bold'>SWIFTTOWDUBAI</h3>
             </div>

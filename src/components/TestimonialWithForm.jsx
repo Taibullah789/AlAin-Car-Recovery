@@ -15,7 +15,7 @@ export default function TestimonialWithForm() {
 
             {/* Testimonial Text */}
             <p className='text-base md:text-lg italic mb-10 leading-relaxed font-medium'>
-              Quick Tow Dubai came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
+              Swift Tow Dubai came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
             </p>
 
             {/* Author Info */}
