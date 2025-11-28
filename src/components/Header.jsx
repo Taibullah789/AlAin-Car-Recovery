@@ -23,7 +23,7 @@ export default function Header(){
                 <path d='M15 16v2a1 1 0 001 1h1a1 1 0 001-1v-2' stroke='currentColor' strokeWidth='1.2' strokeLinecap='round' strokeLinejoin='round' />
               </svg>
             </div>
-            <span className='hidden sm:inline-block text-white font-bold tracking-wide'>QUICKTOWDHUBAI</span>
+            <span className='hidden sm:inline-block text-white font-bold tracking-wide'>SWIFTTOWDUBAI</span>
           </NavLink>
 
           {/* Center: Nav links (desktop) */}

@@ -10,7 +10,7 @@ export default function ServiceDetail(){
   return (
     <div>
       <Helmet>
-        <title>{service.name} | FastLane Towing</title>
+        <title>{service.name} | SwiftTow Dubai</title>
         <meta name="description" content={service.description} />
       </Helmet>
       <PageHero 

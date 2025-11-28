@@ -6,7 +6,7 @@ export default function Gallery(){
   return (
     <div>
       <Helmet>
-        <title>Gallery | FastLane Towing</title>
+        <title>Gallery | SwiftTow Dubai</title>
         <meta name="description" content="View our gallery of towing and roadside assistance services in Dubai." />
       </Helmet>
       <PageHero 

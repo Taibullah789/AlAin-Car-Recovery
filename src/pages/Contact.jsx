@@ -6,8 +6,8 @@ export default function Contact(){
   return (
     <div>
       <Helmet>
-        <title>Contact Us | FastLane Towing</title>
-        <meta name="description" content="Contact FastLane Towing for 24/7 emergency towing and roadside assistance in Dubai." />
+        <title>Contact Us | SwiftTow Dubai</title>
+        <meta name="description" content="Contact SwiftTow Dubai for 24/7 emergency towing and roadside assistance in Dubai." />
       </Helmet>
       <PageHero 
         title="Contact Us"
@@ -33,7 +33,7 @@ export default function Contact(){
 
               {/* Description */}
               <p className='text-gray-600 text-base md:text-lg mb-8 leading-relaxed'>
-                Need immediate towing or roadside assistance? FastLane Towing is available 24/7—just reach out and we'll be there fast.
+                Need immediate towing or roadside assistance? SwiftTow Dubai is available 24/7—just reach out and we'll be there fast.
               </p>
 
               {/* Contact Details */}

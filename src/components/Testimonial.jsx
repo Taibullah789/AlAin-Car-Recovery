@@ -6,7 +6,7 @@ export default function Testimonial(){
           <div className='bg-gray-50 p-8 md:p-12 rounded-lg shadow-lg'>
             <div className='text-4xl text-blue-600 mb-4'>"</div>
             <p className='text-xl md:text-2xl text-gray-700 mb-6 italic'>
-              FastLane Towing came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
+              SwiftTow Dubai came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
             </p>
             <div className='flex items-center'>
               <div className='w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center text-white text-2xl font-bold mr-4'>

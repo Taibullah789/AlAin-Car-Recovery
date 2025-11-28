@@ -6,8 +6,8 @@ export default function About(){
   return (
     <div>
       <Helmet>
-        <title>About Us | FastLane Towing</title>
-        <meta name="description" content="Learn about FastLane Towing - your trusted partner for 24/7 emergency towing and roadside assistance across Dubai." />
+        <title>About Us | SwiftTow Dubai</title>
+        <meta name="description" content="Learn about SwiftTow Dubai - your trusted partner for 24/7 emergency towing and roadside assistance across Dubai." />
       </Helmet>
       <PageHero 
         title="About Us"

@@ -5,7 +5,7 @@ export default function Blog(){
   return (
     <div>
       <Helmet>
-        <title>Blog | FastLane Towing</title>
+        <title>Blog | SwiftTow Dubai</title>
         <meta name="description" content="Read our latest blog posts about towing tips, vehicle maintenance, and roadside assistance." />
       </Helmet>
       <PageHero 

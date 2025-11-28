@@ -7,8 +7,8 @@ export default function Services(){
   return (
     <div>
       <Helmet>
-        <title>Our Services | FastLane Towing</title>
-        <meta name="description" content="FastLane Towing offers comprehensive towing and roadside assistance services in Dubai." />
+        <title>Our Services | SwiftTow Dubai</title>
+        <meta name="description" content="SwiftTow Dubai offers comprehensive towing and roadside assistance services in Dubai." />
       </Helmet>
       <PageHero 
         title="Our Services"

@@ -14,7 +14,7 @@ export default function Footer(){
               <div className='w-10 h-10 bg-yellow-500 rounded flex items-center justify-center text-lg font-bold'>
                 🚗
               </div>
-              <h3 className='text-xl md:text-2xl font-bold'>QUICKTOWDHUBAI</h3>
+              <h3 className='text-xl md:text-2xl font-bold'>SWIFTTOWDUBAI</h3>
             </div>
 
             {/* Description */}

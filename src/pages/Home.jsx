@@ -12,8 +12,8 @@ export default function Home(){
   return (
     <div>
       <Helmet>
-        <title>FastLane Towing | 24/7 Towing & Roadside Assistance in Dubai</title>
-        <meta name="description" content="FastLane Towing provides fast, reliable 24/7 emergency towing and roadside assistance across Dubai. Expert team ensures your vehicle is safely recovered." />
+        <title>SwiftTow Dubai | 24/7 Towing & Roadside Assistance</title>
+        <meta name="description" content="SwiftTow Dubai provides fast, reliable 24/7 emergency towing and roadside assistance across Dubai. Expert team ensures your vehicle is safely recovered." />
       </Helmet>
       
       {/* Hero Banner */}
