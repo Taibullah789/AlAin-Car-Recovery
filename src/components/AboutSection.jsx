@@ -1,5 +1,5 @@
 import { useFadeIn } from '../hooks/useFadeIn';
-import topImg from '../assets/s2.jpeg';
+import topImg from '../assets/s1.webp';
 import bottomImg from '../assets/s3.webp';
 
 export default function AboutSection() {
@@ -67,7 +67,7 @@ export default function AboutSection() {
             </h2>
 
             <p className='text-gray-700 text-sm sm:text-base md:text-lg mb-8 leading-relaxed'>
-              Swift Tow Dubai is your trusted partner for 24/7 emergency towing and roadside assistance 
+              Swift Tow Alain is your trusted partner for 24/7 emergency towing and roadside assistance 
               across the Emirates. Our team of certified technicians uses state-of-the-art equipment to 
               ensure your vehicle is assessed, secured, and transported safely—every time.
             </p>

@@ -20,12 +20,12 @@ export default function HeroBanner() {
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-2">
-            SWIFTTOWDUBAI
+            SWIFTTOW ALAIN
           </h1>
 
           {/* Subheading */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-light mb-6 text-yellow-400">
-            Towing & Roadside Assistance
+           Car Towing & Roadside Assistance
           </h2>
 
           {/* Description */}
