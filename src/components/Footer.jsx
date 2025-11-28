@@ -51,11 +51,11 @@ export default function Footer() {
                   <path d="M24 44h12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" />
                 </svg>
               </div>
-              <h3 className="text-xl sm:text-2xl font-bold">SWIFTTOWDUBAI</h3>
+              <h3 className="text-xl sm:text-2xl font-bold">ALAIN CAR RECOVERY</h3>
             </div>
 
             <p className="text-sm sm:text-base leading-relaxed mb-8">
-              Your trusted 24/7 towing & roadside assistance partner across Dubai—fast, reliable and professional every time.
+              Your trusted 24/7 towing & roadside assistance partner across Al Ain—fast, reliable and professional every time.
             </p>
           </div>
 
@@ -107,8 +107,8 @@ export default function Footer() {
             <div>
               <h4 className="text-base sm:text-lg font-semibold text-white mb-6">Contact Info</h4>
               <ul className="space-y-2 sm:space-y-3 text-gray-300">
-                <li className="flex items-start gap-3"><span className="text-yellow-400 text-lg">📍</span> United Arab Emirates</li>
-                <li><a href="mailto:arabianrecoverytowingservice@gmail.com" className="text-gray-300 hover:text-yellow-400 transition flex items-center gap-3"><span className="text-yellow-400 text-lg">✉</span> arabianrecoverytowingservice@gmail.com</a></li>
+                <li className="flex items-start gap-3"><span className="text-yellow-400 text-lg">📍</span> Al Ain</li>
+                <li><a href="mailto:arabianrecoverytowingservice@gmail.com" className="text-gray-300 hover:text-yellow-400 transition flex items-center gap-3"><span className="text-yellow-400 text-lg">✉</span> shakilrecoveryservice@gmail.com</a></li>
                 <li><a href="tel:+971567661873" className="text-gray-300 hover:text-yellow-400 transition flex items-center gap-3 font-semibold"><span className="text-yellow-400 text-lg">📞</span> (+971) 56 766 1873</a></li>
               </ul>
             </div>
@@ -117,9 +117,9 @@ export default function Footer() {
       </div>
 
       {/* Bottom Bar */}
-      <div className="bg-black text-center py-6 px-4">
+      <div className="bg-black/3 text-center py-6 px-4">
         <p className="text-gray-400 text-sm">
-          Copyright © {currentYear} Quick Tow Dubai by Skill Ka Safar. All Rights Reserved.
+          Copyright © {currentYear} Al Ain Car Recovery by Skill Ka Safar. All Rights Reserved.
         </p>
       </div>
     </footer>

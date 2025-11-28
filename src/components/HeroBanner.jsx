@@ -14,13 +14,13 @@ export default function HeroBanner() {
       <div className="container mx-auto px-4 relative z-10 flex flex-col justify-center h-full">
         <div className="text-center">
           {/* Badge */}
-          <div className="inline-block bg-yellow-400 text-black px-4 py-2 rounded-full mb-4 text-sm md:text-base font-semibold">
+          <div className="inline-block bg-black-400 text-white px-4 py-2 rounded-full mb-4 text-sm md:text-base font-semibold">
             24/7 Towing Service
           </div>
 
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-2">
-            SWIFTTOW ALAIN
+            Al Ain Car Recovery and Towing
           </h1>
 
           {/* Subheading */}
@@ -30,15 +30,15 @@ export default function HeroBanner() {
 
           {/* Description */}
           <p className="text-base sm:text-lg md:text-xl mb-8 max-w-3xl mx-auto leading-relaxed">
-            Fast, reliable 24/7 emergency towing and roadside assistance across Dubai—
+            Fast, reliable 24/7 emergency towing and roadside assistance across Al Ain—
             our expert team ensures your vehicle is safely recovered and back on the road in minutes.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-4">
             <a
-              href="tel:+971504054022"
-              className="bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition shadow-lg w-full md:w-auto text-center"
+              href="tel:0569284977"
+              className="bg-yellow-400 text-black px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-300 transition shadow-lg w-full md:w-auto text-center"
             >
               Call Us Now
             </a>

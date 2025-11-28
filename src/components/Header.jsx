@@ -29,7 +29,7 @@ export default function Header() {
               <path d="M24 44h12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
             </svg>
           </div>
-          <span className="hidden sm:inline-block text-white font-bold tracking-wide">SWIFTTOWDUBAI</span>
+          <span className="hidden sm:inline-block text-white font-bold tracking-wide">AL AIN CAR RECOVERY</span>
         </NavLink>
 
         {/* Desktop Nav */}
@@ -59,7 +59,7 @@ export default function Header() {
 
         {/* CTA + Mobile Toggle */}
         <div className="flex items-center gap-4">
-          <a href="tel:+971504054022" className="hidden md:inline-block bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold hover:bg-yellow-300 transition">
+          <a href="tel:0569284977" className="hidden md:inline-block bg-yellow-400 text-black px-5 py-2 rounded-full font-semibold hover:bg-yellow-300 transition">
             CALL US NOW
           </a>
           <button

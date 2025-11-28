@@ -13,7 +13,7 @@ export default function FloatingContactBanner(){
 
   return (
     <div 
-      className={`absolute top-1/2 left-1/2 z-50 transition-all duration-1000 ease-out ${
+      className={`absolute top-1/2 left-1/2 z-0 transition-all duration-1000 ease-out ${
         isVisible 
           ? '-translate-y-1/2 translate-x-[calc(30%+80px)] opacity-100' 
           : 'translate-y-[-50%] translate-x-[50vw] opacity-0'
@@ -38,7 +38,7 @@ export default function FloatingContactBanner(){
               d='M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z' 
             />
           </svg>
-          <span className='font-bold text-sm md:text-base whitespace-nowrap'>24/7 Towing Service</span>
+          <span className='font-bold text-sm md:text-base whitespace-nowrap'>24/7 Recovery Service</span>
         </div>
         
         {/* Bottom Line - Phone Number with Underline */}

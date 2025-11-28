@@ -18,7 +18,7 @@ export default function TestimonialWithForm() {
             <h2 className="text-4xl md:text-5xl font-bold mb-8">Testimonial</h2>
 
             <p className="text-base md:text-lg italic mb-10 leading-relaxed font-medium">
-              Swift Tow Dubai came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
+              Al Ain Car Recovery came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
             </p>
 
             <div className="flex items-center justify-center gap-4">

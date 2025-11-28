@@ -31,7 +31,7 @@ export default function ReadySection() {
         </h2>
 
         <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-6 md:mb-10 max-w-3xl mx-auto text-gray-100 leading-relaxed">
-          Whether it's a flat tire at Dubai Mall or a breakdown near Dubai Marina, our expert team is on standby around the clock.
+          Whether it's a flat tire at Al Ain or a breakdown near Al Ain, our expert team is on standby around the clock.
         </p>
 
         <Link

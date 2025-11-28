@@ -44,7 +44,7 @@ export default function Contact() {
               </h2>
 
               <p className='text-gray-600 text-base md:text-lg mb-8 leading-relaxed'>
-                Need immediate towing or roadside assistance? SwiftTow Dubai is available 24/7—just reach out and we'll be there fast.
+                Need immediate towing or roadside assistance? Al Ain Car Recovery is available 24/7—just reach out and we'll be there fast.
               </p>
 
               {/* Contact Details */}
