@@ -15,7 +15,7 @@ export default function Home() {
         <title>Alain Car Recovery | 24/7 Towing & Roadside Assistance</title>
         <meta 
           name="description" 
-          content="Alain Car Recovery provides fast, reliable 24/7 emergency towing and roadside assistance across Dubai. Expert team ensures your vehicle is safely recovered." 
+          content="Alain Car Recovery provides fast, reliable 24/7 emergency towing and roadside assistance across Alain. Expert team ensures your vehicle is safely recovered." 
         />
       </Helmet>
 
