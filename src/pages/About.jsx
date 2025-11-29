@@ -11,15 +11,15 @@ export default function About() {
       {/* SEO & Structured Data */}
       <Helmet>
         <html lang="en" />
-        <title>About Us | SwiftTow Dubai</title>
+        <title>About Us | Alain Car Recovery</title>
         <meta
           name="description"
-          content="Learn about SwiftTow Dubai - your trusted partner for 24/7 emergency towing and roadside assistance across Dubai."
+          content="Learn about Alain Car Recovery - your trusted partner for 24/7 emergency towing and roadside assistance across Alain."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="towing Dubai, roadside assistance Dubai, SwiftTow Dubai, emergency towing"
+          content="towing Alain, roadside assistance Alain, Alain Car Recovery, emergency towing"
         />
         {/* Structured Data */}
         <script type="application/ld+json">
@@ -27,16 +27,16 @@ export default function About() {
           {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "SwiftTow Dubai",
-            "url": "https://www.swifttowdubai.com",
-            "logo": "https://www.swifttowdubai.com/logo.png",
+            "name": "Alain Car Recovery",
+            "url": "https://www.alaincarrecovery.com",
+            "logo": "https://www.alaincarrecovery.com/logo.png",
             "sameAs": [
-              "https://www.facebook.com/swifttowdubai",
-              "https://www.instagram.com/swifttowdubai"
+              "https://www.facebook.com/alaincarrecovery",
+              "https://www.instagram.com/alaincarrecovery",
             ],
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+971504054022",
+              "telephone": "0569284977",
               "contactType": "customer service",
               "areaServed": "AE"
             }

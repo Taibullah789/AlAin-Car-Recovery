@@ -25,7 +25,7 @@ export default function ServiceDetail() {
   return (
     <div>
       <Helmet>
-        <title>{service.name} | SwiftTow Dubai</title>
+        <title>{service.name} | Alain Car Recovery</title>
         <meta name="description" content={service.description} />
       </Helmet>
 
@@ -65,10 +65,10 @@ export default function ServiceDetail() {
             {/* CTA Button */}
             <div className="mt-8 text-center">
               <a 
-                href="tel:+971504054022" 
+                href="tel:0569284977" 
                 className="inline-block bg-yellow-400 text-black px-8 py-4 rounded-lg font-bold text-lg hover:bg-yellow-300 transition shadow-lg"
               >
-                Call Now: (+971) 50 405 4022
+                Call Now: (056) 92 84 977
               </a>
             </div>
           </div>

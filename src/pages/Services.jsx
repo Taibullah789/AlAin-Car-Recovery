@@ -7,10 +7,10 @@ export default function Services() {
   return (
     <div>
       <Helmet>
-        <title>Our Services | SwiftTow Dubai</title>
+        <title>Our Services | Alain Car Recovery</title>
         <meta 
           name="description" 
-          content="SwiftTow Dubai offers comprehensive towing and roadside assistance services in Dubai." 
+          content="Alain Car Recovery offers comprehensive towing and roadside assistance services in Alain." 
         />
       </Helmet>
 

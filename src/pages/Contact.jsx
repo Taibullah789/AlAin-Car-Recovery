@@ -9,10 +9,10 @@ export default function Contact() {
   return (
     <div>
       <Helmet>
-        <title>Contact Us | SwiftTow Dubai</title>
+        <title>Contact Us | Alain Car Recovery</title>
         <meta 
           name="description" 
-          content="Contact SwiftTow Dubai for 24/7 emergency towing and roadside assistance in Dubai." 
+          content="Contact Alain Car Recovery for 24/7 emergency towing and roadside assistance in Alain." 
         />
       </Helmet>
 
@@ -70,7 +70,7 @@ export default function Contact() {
                       href='mailto:info@fastlanetowing.com' 
                       className='text-gray-600 hover:text-yellow-400 transition'
                     >
-                      info@fastlanetowing.com
+                      info@alaincarrecovery.com
                     </a>
                   </div>
                 </div>
@@ -82,10 +82,10 @@ export default function Contact() {
                   <div className='ml-4'>
                     <div className='font-bold text-gray-900 mb-1'>Phone Number</div>
                     <a 
-                      href='tel:+971504054022' 
+                      href='tel:0569284977' 
                       className='text-gray-600 hover:text-yellow-400 transition'
                     >
-                      +971 50 405 4022
+                      (056) 92 84 977
                     </a>
                   </div>
                 </div>

@@ -6,10 +6,10 @@ export default function Gallery() {
   return (
     <div>
       <Helmet>
-        <title>Gallery | SwiftTow Dubai</title>
+        <title>Gallery | Alain Car Recovery</title>
         <meta 
           name="description" 
-          content="View our gallery of towing and roadside assistance services in Dubai." 
+          content="View our gallery of towing and roadside assistance services in Alain." 
         />
       </Helmet>
 

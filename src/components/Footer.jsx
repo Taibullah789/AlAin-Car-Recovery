@@ -109,7 +109,7 @@ export default function Footer() {
               <ul className="space-y-2 sm:space-y-3 text-gray-300">
                 <li className="flex items-start gap-3"><span className="text-yellow-400 text-lg">📍</span> Al Ain</li>
                 <li><a href="mailto:arabianrecoverytowingservice@gmail.com" className="text-gray-300 hover:text-yellow-400 transition flex items-center gap-3"><span className="text-yellow-400 text-lg">✉</span> shakilrecoveryservice@gmail.com</a></li>
-                <li><a href="tel:+971567661873" className="text-gray-300 hover:text-yellow-400 transition flex items-center gap-3 font-semibold"><span className="text-yellow-400 text-lg">📞</span> (+971) 56 766 1873</a></li>
+                <li><a href="tel:0569284977" className="text-gray-300 hover:text-yellow-400 transition flex items-center gap-3 font-semibold"><span className="text-yellow-400 text-lg">📞 (056) 9284977</span> </a></li>
               </ul>
             </div>
           </div>
