@@ -1,5 +1,5 @@
 export default function WhatsAppButton() {
-  const whatsappNumber = '971569284977'; // Without + sign
+  const whatsappNumber = '971504054022'; // Without + sign
   const message = 'Hello, I need towing assistance!';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
