@@ -25,7 +25,7 @@ export default function ServiceDetail() {
   return (
     <div>
       <Helmet>
-        <title>{service.name} | Alain Car Recovery</title>
+        <title>{service.name} | Al Ain Car Towing</title>
         <meta name="description" content={service.description} />
       </Helmet>
 

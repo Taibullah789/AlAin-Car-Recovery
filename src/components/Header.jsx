@@ -29,7 +29,7 @@ export default function Header() {
               <path d="M24 44h12" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"/>
             </svg>
           </div>
-          <span className="hidden sm:inline-block text-white font-bold tracking-wide">AL AIN CAR RECOVERY</span>
+          <span className="hidden sm:inline-block text-white font-bold tracking-wide">AL AIN CAR TOWING</span>
         </NavLink>
 
         {/* Desktop Nav */}
@@ -104,7 +104,7 @@ export default function Header() {
           <NavLink to="/gallery" onClick={() => setMobileOpen(false)} className="block px-3 py-2 text-lg font-medium">Gallery</NavLink>
           <NavLink to="/blog" onClick={() => setMobileOpen(false)} className="block px-3 py-2 text-lg font-medium">Blog</NavLink>
           <NavLink to="/contact" onClick={() => setMobileOpen(false)} className="block px-3 py-2 text-lg font-medium">Contact Us</NavLink>
-          <a href="tel:+971504054022" className="mt-2 w-full text-center bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold">CALL US NOW</a>
+          <a href="tel:0569284977" className="mt-2 w-full text-center bg-yellow-400 text-black px-4 py-2 rounded-full font-semibold">CALL US NOW</a>
         </div>
       </div>
     </header>

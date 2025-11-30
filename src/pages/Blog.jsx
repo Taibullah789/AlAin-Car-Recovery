@@ -10,7 +10,7 @@ export default function Blog() {
       {/* SEO & Meta */}
       <Helmet>
         <html lang="en" />
-        <title>Blog | Alain Car Recovery</title>
+        <title>Blog | Al Ain Car Towing</title>
         <meta
           name="description"
           content="Read our latest blog posts about towing tips, vehicle maintenance, and roadside assistance."
@@ -18,7 +18,7 @@ export default function Blog() {
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="towing blog, roadside assistance tips, vehicle maintenance, Alain Car Recovery"
+          content="towing blog, roadside assistance tips, vehicle maintenance, Al Ain Car Towing"
         />
       </Helmet>
 

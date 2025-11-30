@@ -9,10 +9,10 @@ export default function Contact() {
   return (
     <div>
       <Helmet>
-        <title>Contact Us | Alain Car Recovery</title>
+        <title>Contact Us | Al Ain Car Towing</title>
         <meta 
           name="description" 
-          content="Contact Alain Car Recovery for 24/7 emergency towing and roadside assistance in Alain." 
+          content="Contact Al Ain Car Towing for 24/7 emergency towing and roadside assistance in Al Ain." 
         />
       </Helmet>
 
@@ -44,7 +44,7 @@ export default function Contact() {
               </h2>
 
               <p className='text-gray-600 text-base md:text-lg mb-8 leading-relaxed'>
-                Need immediate towing or roadside assistance? Al Ain Car Recovery is available 24/7—just reach out and we'll be there fast.
+                Need immediate towing or roadside assistance? Al Ain Car Towing is available 24/7—just reach out and we'll be there fast.
               </p>
 
               {/* Contact Details */}
@@ -67,10 +67,10 @@ export default function Contact() {
                   <div className='ml-4'>
                     <div className='font-bold text-gray-900 mb-1'>Email</div>
                     <a 
-                      href='mailto:info@fastlanetowing.com' 
+                      href='mailto:info@alaincartowing.com' 
                       className='text-gray-600 hover:text-yellow-400 transition'
                     >
-                      info@alaincarrecovery.com
+                      info@alaincartowing.com
                     </a>
                   </div>
                 </div>

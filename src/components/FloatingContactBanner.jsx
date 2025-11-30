@@ -20,7 +20,7 @@ export default function FloatingContactBanner(){
       }`}
     >
       <a 
-        href='tel:+971504054022'
+        href='tel:0569284977'
         className='bg-gray-900 text-white px-5 md:px-7 py-4 md:py-5 rounded-full shadow-2xl hover:shadow-3xl transition-all duration-300 hover:bg-gray-800 block min-w-[260px] md:min-w-[300px]'
       >
         {/* Top Line - 24/7 Towing Service */}

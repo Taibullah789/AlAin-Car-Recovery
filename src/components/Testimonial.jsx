@@ -18,7 +18,7 @@ export default function Testimonial() {
 
             {/* Testimonial Text */}
             <p className="text-xl md:text-2xl text-gray-700 mb-6 italic leading-relaxed">
-             Al Ain Car Recovery came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
+             Al Ain Car Towing came to my rescue when my supercar stalled near the Burj Khalifa. Their rapid response and professional care were truly impressive!
             </p>
 
             {/* Author */}

@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Alain Car Recovery | 24/7 Towing & Roadside Assistance</title>
+        <title>Al Ain Car Towing | 24/7 Towing & Roadside Assistance</title>
         <meta 
           name="description" 
-          content="Alain Car Recovery provides fast, reliable 24/7 emergency towing and roadside assistance across Alain. Expert team ensures your vehicle is safely recovered." 
+          content="Al Ain Car Towing provides fast, reliable 24/7 emergency towing and roadside assistance across Al Ain, UAE. Expert team ensures your vehicle is safely recovered." 
         />
       </Helmet>
 
@@ -23,7 +23,7 @@ export default function Home() {
       <HeroBanner />
 
       {/* About Section */}
-      <section aria-label="About Alain Car Recovery">
+      <section aria-label="About Al Ain Car Towing">
         <AboutSection />
       </section>
 

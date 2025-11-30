@@ -6,10 +6,10 @@ export default function Gallery() {
   return (
     <div>
       <Helmet>
-        <title>Gallery | Alain Car Recovery</title>
+        <title>Gallery | Al Ain Car Towing</title>
         <meta 
           name="description" 
-          content="View our gallery of towing and roadside assistance services in Alain." 
+          content="View our gallery of towing and roadside assistance services in Al Ain." 
         />
       </Helmet>
 

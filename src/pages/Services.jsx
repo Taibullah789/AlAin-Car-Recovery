@@ -7,10 +7,10 @@ export default function Services() {
   return (
     <div>
       <Helmet>
-        <title>Our Services | Alain Car Recovery</title>
+        <title>Our Services | Al Ain Car Towing</title>
         <meta 
           name="description" 
-          content="Alain Car Recovery offers comprehensive towing and roadside assistance services in Alain." 
+          content="Al Ain Car Towing offers comprehensive towing and roadside assistance services in Al Ain,Uae." 
         />
       </Helmet>
 
@@ -26,7 +26,7 @@ export default function Services() {
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">Emergency Roadside Assistance</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
-              We provide 24/7 towing and roadside assistance across Dubai. Explore our services below and get help when you need it most.
+              We provide 24/7 towing and roadside assistance across Al Ain. Explore our services below and get help when you need it most.
             </p>
           </div>
 

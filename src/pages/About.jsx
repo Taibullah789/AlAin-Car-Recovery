@@ -11,15 +11,15 @@ export default function About() {
       {/* SEO & Structured Data */}
       <Helmet>
         <html lang="en" />
-        <title>About Us | Alain Car Recovery</title>
+        <title>About Us | Al Ain Car Towing</title>
         <meta
           name="description"
-          content="Learn about Alain Car Recovery - your trusted partner for 24/7 emergency towing and roadside assistance across Alain."
+          content="Learn about Al Ain Car Towing - your trusted partner for 24/7 emergency towing and roadside assistance across Al Ain."
         />
         <meta name="robots" content="index, follow" />
         <meta
           name="keywords"
-          content="towing Alain, roadside assistance Alain, Alain Car Recovery, emergency towing"
+          content="towing Al Ain, roadside assistance Al Ain, Al Ain Car Towing, emergency towing"
         />
         {/* Structured Data */}
         <script type="application/ld+json">
@@ -27,12 +27,12 @@ export default function About() {
           {
             "@context": "https://schema.org",
             "@type": "Organization",
-            "name": "Alain Car Recovery",
-            "url": "https://www.alaincarrecovery.com",
-            "logo": "https://www.alaincarrecovery.com/logo.png",
+            "name": "Al Ain Car Towing",
+            "url": "https://www.alaincartowing.com",
+            "logo": "https://www.alaincartowing.com/logo.png",
             "sameAs": [
-              "https://www.facebook.com/alaincarrecovery",
-              "https://www.instagram.com/alaincarrecovery",
+              "https://www.facebook.com/alaincartowing",
+              "https://www.instagram.com/alaincartowing",
             ],
             "contactPoint": {
               "@type": "ContactPoint",
