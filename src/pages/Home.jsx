@@ -12,10 +12,10 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Al Ain Car Towing | 24/7 Towing & Roadside Assistance 0504054022</title>
+        <title>Al Ain Car Recovery | 24/7 Towing & Roadside Assistance 0504054022</title>
         <meta 
           name="description" 
-          content="Al Ain Car Towing provides fast, reliable 24/7 emergency towing and roadside assistance across Al Ain, UAE. Expert team ensures your vehicle is safely recovered." 
+          content="Al Ain Car Recovery provides fast, reliable 24/7 emergency towing and roadside assistance across Al Ain, UAE. Expert team ensures your vehicle is safely recovered." 
         />
       </Helmet>
 
